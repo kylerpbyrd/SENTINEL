@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+**/package-lock.json
+
+# Build output
+dist/
+build/
+out/
+*.js.map
+*.tsbuildinfo
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated reports (validation harness output)
+reports/
+!docs/reports/
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.log
+
+# Credentials
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.json
+
+# Archive (old research agent outputs that are now consolidated)
+# Keep research/ directory but .gitignore any auto-generated agent files
